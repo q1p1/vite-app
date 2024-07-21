@@ -1,5 +1,5 @@
 import Assets from "../components/Assets";
-import Gateways from "../components/Gateways";
+import Gateways from "./Gateways";
 import Anchors from "../components/Anchors";
 import "./Dashboard.css";
 
