@@ -1,0 +1,64 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 380px;
+ height: 250px;
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.card-value {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.card-details {
+  margin-top: 10px;
+}
+
+.card-details div {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status.active {
+  background: green;
+}
+
+.status.inactive {
+  background: blue;
+}
+
+.status.unassigned {
+  background: orange;
+}
+
+.status.offline {
+  background: red;
+}
+
+.status.online {
+  background: green;
+}
+
+.status.unapproved {
+  background: brown;
+}
+span {
+  margin-left: 100px;
+}
